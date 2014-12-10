@@ -91,11 +91,72 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
-
-
-
-
+   ===============i=========================================================== */
+//*body{
+	width:100%;
+	background:#ffffff;
+	margin:0;
+	padding:0;}*//
+#wrapper{
+	width:960px;
+	margin:0 auto ;}
+#header{
+	background:#ffffff;
+	background:#c00;}
+#header h1{
+	color:#fff;
+	font-size:24px;
+	margin:0;
+	padding: 30px 10px 10px 30px;
+	font-weight: normal;}
+#navbar ul{
+	width:100%;
+	margin:0;
+	padding:0;
+	background:#98bf21;
+	list-style:none;
+	float:left;}
+	
+li{
+	float:left;
+	width:auto;}
+a:link, a:visited{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#98bf21;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;}
+a:hover, a:active {
+    background-color: #7A991A;
+    }
+#content_area{
+	clear:both;
+	padding-top:10px;}
+#content{
+	width:75%;
+	float:left;
+	font-family:Arial;font-size:14px}
+#content h2{
+	padding:0 10px 20px;}
+#sidebar{
+	margin-left:75%;}
+#sidebar h3{
+	margin:0;}
+.block{
+	border:1px solid #000;
+	padding:10px;
+	margin:5px;}
+#footer{
+	background:#aaa;;
+	clear:both}
+#footer p{
+	padding: 10px 20px;
+	color: #fff;
+	font-size:18px;}
 
 
 
